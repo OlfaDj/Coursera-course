@@ -1,3 +1,7 @@
+#bi {
+	background-image: url("rest.png");
+	background-repeat: round;
+}
 
 /********** Base styles **********/
 * {
@@ -8,6 +12,10 @@
 h1 {
   margin-bottom: 60px;
   text-align: center;
+  font-size: 400%;
+  font-family: Tempus Sans ITC;
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
 div {
