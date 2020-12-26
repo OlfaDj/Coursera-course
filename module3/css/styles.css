@@ -1,0 +1,76 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: lightblue;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER Styles **/
+
+#header-nav{
+	background-color: lightgray;
+	border-radius: 0;
+	border: 0;
+} 
+
+.navbar-brand {
+  height: 100%;
+	padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.navbar-brand h1 {  /* Food, LLC */
+    font-family: 'Lora', sherif;
+    color: darkblue;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list {
+  background-color: #8FBC8F;
+  margin:0px;
+  width: 100%;
+}
+
+#nav-list a {
+  font-size: 1.3em;
+  color: darkblue;
+}
+
+#nav-list a:hover {
+  background: #A9A9A9;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid darkblue;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 20px;
+}
+/** END Header Styles **/
+
+
+/* HOME PAGE */
+#page-title {
+  color: black;
+  margin-bottom: 50px;
+}
+
+#menu-tile {
+  margin-bottom: 20px;
+}
+
+#chicken-tile {
+  height: 1000px;
+  background-color: gray;
+}
+
+#chicken-tile div {
+ font-size: 1.2em;
+ font-weight: bold;
+ margin-bottom: 5px;
+}
