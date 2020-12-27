@@ -15,10 +15,8 @@
 
 <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        
+      <div class="container-fluid">
         <div class="navbar-header">             
-        
           <div class="navbar-brand">
             <h1>Food, LLC</h1>
           </div>
@@ -31,10 +29,10 @@
         </div>
     
         <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-             <li class="visible-xs"><a class="text-center">Chicken</a></li>
-             <li class="visible-xs"><a class="text-center">Beef</a></li>
-             <li class="visible-xs"><a class="text-center">Sushi</a></li>
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+             <li><a class="text-center">Chicken</a></li>
+             <li><a class="text-center">Beef</a></li>
+             <li><a class="text-center">Sushi</a></li>
            </ul> <!-- #nav-list -->
         </div> <!-- .collapse .navbar-collapse -->
       
@@ -42,16 +40,33 @@
     </nav>
 </header> <!-- End Header-->
 
+<h2 id="page-title" class="text-center">Our Menu</h2>
 
-<div class="container">
-
-    <h2 id="page-title" class="text-center">Our Menu</h2>
-
-    <div id="menu-tile" class="row container">
-    	<section id="chicken-tile" class="col-md-12 col-sm-12 col-xs-12">
+<div class="container-fluid">
+    <div class="row">
+    	<div class="col-lg-4 col-md-4 col-sm-6">
+       	  <section id="chicken-tile">
     		<div class="text-center">Chicken</div>
     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
-    	</section>
+    		<p><a href="#page-title">Back to top</a></p>
+       	  </section>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6">
+    	 <section id="beef-tile">
+    		<div class="text-center">Beef</div>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+    		<p><a href="#page-title">Back to top</a></p>
+    	 </section>
+    	</div>
+
+    	<div class="col-lg-4 col-md-4 col-sm-12">
+    	  <section id="sushi-tile">	
+    	  	<div class="text-center">Sushi</div>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+    		<p><a href="#page-title">Back to top</a></p>
+    	  </section>
+    	</div>
     </div>
 </div>	
 

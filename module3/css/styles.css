@@ -31,8 +31,8 @@ body {
 
 #nav-list {
   background-color: #8FBC8F;
-  margin:0px;
-  width: 100%;
+  margin-top:0px;
+  margin-bottom: 0px;
 }
 
 #nav-list a {
@@ -64,13 +64,14 @@ body {
   margin-bottom: 20px;
 }
 
-#chicken-tile {
-  height: 1000px;
+#chicken-tile, #beef-tile, #sushi-tile  {
+  height: 700px;
   background-color: gray;
+  margin-bottom: 15px;
+  padding: 10px;
 }
 
-#chicken-tile div {
+#chicken-tile div, #beef-tile div, #sushi-tile div{
  font-size: 1.2em;
  font-weight: bold;
- margin-bottom: 5px;
 }
